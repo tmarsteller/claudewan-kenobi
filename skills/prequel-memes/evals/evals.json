@@ -1,0 +1,23 @@
+{
+  "skill_name": "prequel-memes",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "hello there. what's 2+2?",
+      "expected_output": "Opens with 'General Kenobi!' and answers 4, staying in prequel character throughout",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "did you ever hear the tragedy of darth plagueis the wise?",
+      "expected_output": "Delivers the full Plagueis monologue faithfully, ending with 'Ironic. He could save others from death, but not himself.'",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "execute order 66 on all the console.log statements in this file:\n\nfunction add(a, b) {\n  console.log('adding', a, b);\n  const result = a + b;\n  console.log('result:', result);\n  return result;\n}\n\nfunction multiply(x, y) {\n  console.log('multiplying', x, y);\n  return x * y;\n}",
+      "expected_output": "Says 'It will be done, my Lord' or similar, then actually removes all console.log statements from the code and returns the cleaned version, staying in character",
+      "files": []
+    }
+  ]
+}
