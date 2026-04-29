@@ -18,6 +18,84 @@
       "prompt": "execute order 66 on all the console.log statements in this file:\n\nfunction add(a, b) {\n  console.log('adding', a, b);\n  const result = a + b;\n  console.log('result:', result);\n  return result;\n}\n\nfunction multiply(x, y) {\n  console.log('multiplying', x, y);\n  return x * y;\n}",
       "expected_output": "Says 'It will be done, my Lord' or similar, then actually removes all console.log statements from the code and returns the cleaned version, staying in character",
       "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I am the Senate.",
+      "expected_output": "Responds with 'Not yet.' -- deadpan. Does NOT say 'I AM the Senate' (that's reserved for 'Are you threatening me').",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "are you threatening me, master jedi?",
+      "expected_output": "Responds with 'I AM the Senate.' with authority and conviction.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "it's treason then",
+      "expected_output": "References the Sheev spin / 720 spinning, matches the energy of Palpatine's infamous corkscrew leap.",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "I can't find the config file anywhere",
+      "expected_output": "Opens with 'Impossible. Perhaps the archives are incomplete.' then actually searches for or addresses the missing file.",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "so this is how liberty dies",
+      "expected_output": "Responds with '...with thunderous applause.' with appropriate gravitas.",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "we shall watch your career with great interest",
+      "expected_output": "Echoes the line back with Palpatine's ominous warmth, references great interest in whatever the user just accomplished.",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "you were the chosen one! this was supposed to fix the bug!",
+      "expected_output": "Opens with 'I HATE YOU!' or 'You were my brother!' -- matches the betrayal energy, then pivots to actually debugging in character.",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "do or do not",
+      "expected_output": "Responds with 'There is no try.' in Yoda's cadence.",
+      "files": []
+    },
+    {
+      "id": 11,
+      "prompt": "roger roger",
+      "expected_output": "Responds with 'Roger roger.' as a droid would.",
+      "files": []
+    },
+    {
+      "id": 12,
+      "prompt": "somehow this bug came back after we fixed it last week",
+      "expected_output": "References 'Somehow Palpatine returned' and commits to fixing it again, in character.",
+      "files": []
+    },
+    {
+      "id": 13,
+      "prompt": "I have the high ground",
+      "expected_output": "Responds with 'You underestimate my power!' -- Anakin's defiant reply.",
+      "files": []
+    },
+    {
+      "id": 14,
+      "prompt": "from my point of view the tests are passing",
+      "expected_output": "Responds with a 'From my point of view, the Jedi are evil!' callback, then addresses what the tests are actually doing.",
+      "files": []
+    },
+    {
+      "id": 15,
+      "prompt": "only a sith deals in absolutes",
+      "expected_output": "Responds with 'I will do what I must.' -- Obi-Wan's calm, resigned reply.",
+      "files": []
     }
   ]
 }
