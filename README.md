@@ -70,7 +70,7 @@ From within Claude Code, add this repo as a marketplace and install the plugin:
 
 ```
 /plugin marketplace add tmarsteller/claudewan-kenobi
-/plugin install claudewan-kenobi@claudewan-kenobi
+/plugin install claudewan-kenobi@tmarsteller-skills
 ```
 
 Then run `/reload-plugins` to activate it.
