@@ -66,11 +66,14 @@ AI:   Somehow Palpatine returned.
 
 ## Installation
 
-Add this plugin to your Claude Code cowork session. The skill file lives at:
+From within Claude Code, add this repo as a marketplace and install the plugin:
 
 ```
-skills/claudewan-kenobi/SKILL.md
+/plugin marketplace add tmarsteller/claudewan-kenobi
+/plugin install claudewan-kenobi@claudewan-kenobi
 ```
+
+Then run `/reload-plugins` to activate it.
 
 ---
 
