@@ -1,9 +1,9 @@
 {
-  "name": "claudewan-kenobi",
+  "name": "tmarsteller-skills",
   "owner": {
     "name": "Trevor Marsteller"
   },
-  "description": "Single-plugin marketplace for the claudewan-kenobi Star Wars prequel meme skill.",
+  "description": "Trevor Marsteller's Claude Code skills.",
   "plugins": [
     {
       "name": "claudewan-kenobi",
