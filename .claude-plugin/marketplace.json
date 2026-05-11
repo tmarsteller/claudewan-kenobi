@@ -1,0 +1,14 @@
+{
+  "name": "claudewan-kenobi",
+  "owner": {
+    "name": "Trevor Marsteller"
+  },
+  "description": "Single-plugin marketplace for the claudewan-kenobi Star Wars prequel meme skill.",
+  "plugins": [
+    {
+      "name": "claudewan-kenobi",
+      "source": "./",
+      "description": "Respond using Star Wars prequel trilogy meme vocabulary. Triggers on 'hello there', 'do it', 'execute order 66', and dozens of other prequel phrases."
+    }
+  ]
+}
